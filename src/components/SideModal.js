@@ -1,11 +1,16 @@
 import React,{ useState } from 'react'
 import downImg from '../assets/down.png'
+import close from '../assets/close.png'
+import search from '../assets/search.png'
 
 const SideModal = () => {
   const [ getData, setData ] = useState('1');
 
   const goNext = () => {
     setData('2')
+  }
+  const goBack = () => {
+    setData('1')
   }
   return (
    <div className='sideModal'>
@@ -22,8 +27,17 @@ const SideModal = () => {
     </div>
     :
     getData == '2' ?
-    <div>
-        Rizwan
+    <div className='p-3'>
+        <div className='head'>
+            <h6>Select Manufacturer</h6>
+            <a onClick={goBack} className="pointer">
+                <img src={close} style={{width:20,height:20}}/>
+            </a>
+        </div>
+        <div className='head inputN'>
+            <img src={search} style={{width:20,height:20,marginTop:10}}/>
+            <input placeholder='Search Brand' className='inputs w-100 p-2' />
+        </div>
     </div>
     :
     <div>

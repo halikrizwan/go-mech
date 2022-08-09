@@ -13,7 +13,7 @@
 }
 
 .sideModal {
-  width: 450px;
+  width: 400px;
   height: 450px;
   position: absolute;
   top: 150px;
@@ -30,9 +30,29 @@
   justify-content: space-between;
   display: flex;
   flex-direction: row;
-  
+}
+
+.head {
+  padding: 10px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
 }
 
 .terms {
   font-size: 12px;
+}
+
+.inputs {
+  border: none;
+}
+
+.inputN {
+  border: black;
+  border-width: 1px;
+  border-style: solid;
+  padding: 5px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
 }
