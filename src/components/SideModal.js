@@ -38,6 +38,9 @@ const SideModal = () => {
             <img src={search} style={{width:20,height:20,marginTop:10}}/>
             <input placeholder='Search Brand' className='inputs w-100 p-2' />
         </div>
+        <div>
+            
+        </div>
     </div>
     :
     <div>
