@@ -1,10 +1,10 @@
+import React from 'react'
+import Navbar from './components/Navbar';
 
-function App() {
+const App = () => {
   return (
-    <div>
-        <p style={{color:'black'}}>
-          Go Mech
-        </p>
+    <div className="background">
+      <Navbar/>
     </div>
   );
 }
