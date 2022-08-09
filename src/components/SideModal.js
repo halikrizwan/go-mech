@@ -16,7 +16,7 @@ const SideModal = () => {
    <div className='sideModal'>
     {getData=='1' ?
     <div className='p-5'>
-        <h1 className=''>Experience The Best Car Service In Ahamedabad</h1>
+        <h1 className=''>Experience The Best Car Service In Dubai</h1>
         <div className='mt-4'>Get instant quotes for your car service</div>
         <button className='input mt-2 w-100' onClick={goNext}>
             <span>Honda Amaze, Petrol</span>
@@ -39,7 +39,7 @@ const SideModal = () => {
             <input placeholder='Search Brand' className='inputs w-100 p-2' />
         </div>
         <div>
-            
+
         </div>
     </div>
     :

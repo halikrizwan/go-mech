@@ -15,7 +15,7 @@
 .sideModal {
   width: 400px;
   height: 450px;
-  position: absolute;
+  position: fixed;
   top: 150px;
   right:50px;
   background-color: white;
