@@ -8,7 +8,28 @@
 
 .button {
   background-color: red;
-  border-radius: 10px;
   color: white;
   margin-left: 5%;
+}
+
+.sideModal {
+  width: 450px;
+  height: 490px;
+  position: absolute;
+  top: 150px;
+  right:50px;
+  background-color: white;
+  box-shadow: 20px 20px 50px black;
+}
+
+.input {
+  border: black;
+  border-width: 1px;
+  border-style: solid;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.terms {
+  font-size: 12px;
 }
